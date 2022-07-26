@@ -5,8 +5,226 @@
     <title>HTML Academy: Девайс</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+    <header>
+      <h1 class="header-title visually-hidden">device</h1>
+      <logo class="logo">
+        <a class="link header-logo" href="index.html">
+          <img src="#" alt="Логотип Девайс.">
+        </a>
+      </logo>
+      <section class="header-seach">
+        <h2 class="search-title visually-hidden">Поиск</h2>
+        <form class="search-form" action="https://echo.htmlacademy.ru/" method="get">
+          <input type="search" placeholder="Текст поиска">
+          <button class="button-seach">Найти</button>
+        </form>
+      </section>
+      <nav class="header-navigation">
+        <h2 class="visually-hidden">Навигация по сайту</h2>
+        <ul class="header-navigation-items">
+          <li class="header-navigation-item">
+            <button class="item button-enter" type="subscribe">Войти</button>
+          </li>
+          <li class="header-navigation-item">
+            <button class="item button-compare" type="button">Сранить</button>
+          </li>
+          <li class="header-navigation-item">
+            <a class="link link-basket" href="#">
+              <span>Корзина</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="header-navigation-goods">
+          <li class="header-navigation-good">
+            <a class="link header-navigation-goods-catalog" href="catalog.html">
+              <span>Каталог товаров</span>
+            </a>
+          </li>
+          <li class="header-navigation-good">
+            <a class="link header-navigation-goods-delivery" href="#">
+              <span>Доставка</span>
+            </a>
+          </li>
+          <li class="header-navigation-good">
+            <a class="link header-navigation-goods-guarantee" href="#">
+              <span>Гарантии</span>
+            </a>
+          </li>
+          <li class="header-navigation-good">
+            <a class="link header-navigation-goods-contacts" href="#">
+              <span>Контакты</span>
+            </a>
+          </li>
+        </ul>
+        <div class="header-number">01</div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="good-descriptions">
+        <h2 class="visually-hidden">Описание товаров</h2>
+        <img src="#" alt="Образцы товаров.">
+        <article class="good-description">
+          <h3 class="good-description-title">Порхает как бабочка, жалит как пчела</h3>
+          <p class="good-description-item">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+          <a class="link good-description-detailed" href="#">
+            <span>Подробнее</span>
+          </a>
+          <ul class="good-characters">
+            <li class="good-character">
+              <p class="character-number">800 м</p>
+              <p class="character-description>">Дальность полета</p>
+            </li>
+            <li class="good-character">
+              <p class="character-number">50 м</p>
+              <p class="character-description>">Радиус поражения</p>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="good-groups">
+        <h2 class="visually-hidden">Группы товаров</h2>
+        <ul class="good-items">
+          <li class="good-item">
+            <a class="dood-item-link" href="#">
+              <img src="#" alt="Виртуальная ревльность">
+            </a>
+            <h3 class="good-item-title">Виртуальная реальность</h3>
+          </li>
+          <li class="good-item">
+            <a class="dood-item-link" href="#">
+              <img src="#" alt="Моноподы для селфи.">
+            </a>
+            <h3 class="good-item-title">Моноподы для селфи</h3>
+          </li>
+          <li class="good-item">
+            <a class="dood-item-link" href="#">
+              <img src="#" alt="Экшн-камеры">
+            </a>
+            <h3 class="good-item-title">Экшн-камеры</h3>
+          </li>
+          <li class="good-item">
+            <a class="dood-item-link" href="#">
+              <img src="#" alt="Фитнес-браслеты">
+            </a>
+            <h3 class="good-item-title">Фитнес-браслеты</h3>
+          </li>
+          <li class="good-item">
+            <a class="dood-item-link" href="#">
+              <img src="#" alt="Умные часы">
+            </a>
+            <h3 class="good-item-title">Умные часы</h3>
+          </li>
+          <li class="good-item">
+            <a class="dood-item-link" href="#">
+              <img src="#" alt="Квадрокоптеры">
+            </a>
+            <h3 class="good-item-title">Квадрокоптеры</h3>
+          </li>
+        </ul>
+      </section>
+      <section class="main-navigation">
+        <ul class="main-navigation-items">
+          <li class="main-navigation-item">Доставка</li>
+          <li class="main-navigation-item">Гарантия</li>
+          <li class="main-navigation-item">Кредит</li>
+        </ul>
+        <article class="main-navigation-item-service">
+          <h2 class="main-navigation-item-title">Доставка</h2>
+          <p class="main-navigation-item-service-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+        </article>
+        <div class="delivery">
+          <p class="delivery-information">Доставим редкий товар под закааз</p>
+        </div>
+      </section>
+      <section class="company">
+        <h2 class="company-title visually-hidden">О нас и контакты</h2>
+        <section class="company-about">
+          <h3 class="company-about-title">О нас</h3>
+          <p class="company-about-inform">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+          <p class="company-about-inform">Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
+          <ul class="company-about-inform-list">
+            <li class="company-about-inform-item">Меловые линии</li>
+            <li class="company-about-inform-item">Сдик</li>
+            <li class="company-about-inform-item">ТоксБерри</li>
+          </ul>
+          <a class="company-detailed" href="#">
+            <span class="detailed">Подробнее</span>
+          </a>
+          <h3 class="company-about-title">Контакты</h3>
+          <p class="company-about-inform">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.</p>
+          <p class="company-contact-title">Интернет-магазин «Девайс»</p>
+          <p class="company-about-inform">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+          <a href="tel:+78128121212" class="contact-phone">+7 (812) 812-12-12</a>
+          <p class="company-contact-title">Время работы</p>
+          <p class="company-about-inform">пн—пт: с 10:00 до 22:00</p>
+          <p class="company-about-inform">сб—вс: с 10:00 до 19:00</p>
+          <a class="company-detailed" href="#">
+            <span class="detailed">Напишите нам</span>
+          </a>
+        </section>
+        <section class="mailing">
+          <h2 class="mailing-title">Подпишитесь на рассылку</h2>
+          <p class="mailing-inform">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
+          <form class="email" action="https://echo.htmlacademy.ru/" method="post">
+            <label for="email">
+              <input class="email-input" type="email" id="email" name="email" placeholder="Ваш e-mail" required>
+            </label>
+            <button class="button button-subscribe" type="submit">Подписаться</button>
+          </form>
+          <label for="checkbox">
+            <input class="checkbox" type="checkbox" id="checkbox" name="checkbox" checked>Это бесплатно
+          </label>
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <logo class="logo">
+        <a class="link header-logo" href="index.html">
+          <img src="#" alt="Логотип Девайс.">
+        </a>
+      </logo>
+      <p class="footer-adress">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+      <ul class="header-navigation-goods">
+        <li class="header-navigation-good">
+          <a class="link footer-navigation-goods-delivery" href="#">
+            <span>Доставка</span>
+          </a>
+        </li>
+        <li class="header-navigation-good">
+          <a class="link footer-navigation-goods-guarantee" href="#">
+            <span>Гарантии</span>
+          </a>
+        </li>
+        <li class="header-navigation-good">
+          <a class="link footer-navigation-goods-contacts" href="#">
+            <span>Контакты</span>
+          </a>
+        </li>
+      </ul>
+      <a href="tel:+78128121212" class="contact-phone">Тел.:+7 (812) 812-12-12</a>
+      <section class="footer-social">
+        <h2 class="footer-social-title visually-hidden">Социальные сети</h2>
+        <ul class="footer-social-list">
+          <li class="footer-social-item">
+              <a href="https://vk.com/htmlacademy_ru" class="footer-social-link">
+                  <span class="visually-hidden">ВКонтакте</span>
+              </a>
+          </li>
+          <li class="footer-social-item">
+              <a href="https://telegram.com/htmlacademy_ru" class="footer-social-link">
+                  <span class="visually-hidden">Телеграм</span>
+              </a>
+          </li>
+          <li class="footer-social-item">
+              <a href="https://youtube.com/htmlacademy_ru" class="footer-social-link">
+                  <span class="visually-hidden">Youtube</span>
+              </a>
+          </li>
+        </ul>
+        <a href="https://htmlacademy.ru/" class="html-academy-link">
+          <span class="visually-hidden">.html academy</span>
+      </a>
+      </section>
+    </footer>
   </body>
 </html>
