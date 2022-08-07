@@ -7,27 +7,21 @@
   <body>
     <header>
       <h1 class="header-title visually-hidden">device</h1>
-      <logo class="logo">
-        <a class="link header-logo" href="index.html">
-          <img src="#" alt="Логотип Девайс.">
-        </a>
-      </logo>
+      <a class="link header-logo" href="index.html">
+        <img src="#" alt="Логотип Девайс.">
+      </a>
       <section class="header-seach">
         <h2 class="visually-hidden">Поиск</h2>
         <form class="search-form" action="https://echo.htmlacademy.ru/" method="get">
-          <input type="search" placeholder="Текст поиска">
+          <input type="search" placeholder="Текст поиска" name="search">
           <button class="button-seach">Найти</button>
         </form>
       </section>
       <nav class="header-navigation">
         <h2 class="visually-hidden">Навигация по сайту</h2>
+        <a class="user">Коля Петухов</a>
+        <button class="item button-enter" type="subscribe">Выйти</button>
         <ul class="header-navigation-items">
-          <li class="header-navigation-item">
-            <a class="item button-enter">Коля Петухов</a>
-          </li>
-          <li class="header-navigation-item">
-            <button class="item button-enter" type="subscribe">Выйти</button>
-          </li>
           <li class="header-navigation-item">
             <button class="item button-compare" type="button">Сранить</button>
           </li>
@@ -37,26 +31,16 @@
             </a>
           </li>
         </ul>
+        <a class="link header-navigation-goods-catalog" href="catalog.html">Каталог товаров</a>
         <ul class="header-navigation-goods">
           <li class="header-navigation-good">
-            <a class="link header-navigation-goods-catalog" href="catalog.html">
-              <span>Каталог товаров</span>
-            </a>
+            <a class="link footer-navigation-goods-delivery" href="#">Доставка</a>
           </li>
           <li class="header-navigation-good">
-            <a class="link header-navigation-goods-delivery" href="#">
-              <span>Доставка</span>
-            </a>
+            <a class="link footer-navigation-goods-guarantee" href="#">Гарантии</a>
           </li>
           <li class="header-navigation-good">
-            <a class="link header-navigation-goods-guarantee" href="#">
-              <span>Гарантии</span>
-            </a>
-          </li>
-          <li class="header-navigation-good">
-            <a class="link header-navigation-goods-contacts" href="#">
-              <span>Контакты</span>
-            </a>
+            <a class="link footer-navigation-goods-contacts" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -77,7 +61,7 @@
         </ul>
       </section>
       <section class="filters">
-        <h3 class="filter-title visually-hidden">Фильтры</h3>
+        <h3 class="visually-hidden">Фильтры</h3>
         <form action="https://echo.htmlacademy.ru/" class="filter-catalog" method="get">
           <legend class="filter-range-title">Стоимость</legend>
           <label class="filter-range" for="range">
@@ -138,7 +122,7 @@
         </form>
       </section>
       <section class="cards">
-        <h2 class="cards-title visually-hidden">Карточки</h2>
+        <h2 class="visually-hidden">Карточки</h2>
         <p class="cards-sort">Сортировка:</p>
         <select class="cards-select">
           <option>Популярные</option>
@@ -192,11 +176,9 @@
       </section>
     </main>
     <footer class="footer">
-      <logo class="logo">
-        <a class="link header-logo" href="index.html">
-          <img src="#" alt="Логотип Девайс.">
-        </a>
-      </logo>
+      <a class="link header-logo" href="index.html">
+        <img src="#" alt="Логотип Девайс.">
+      </a>
       <p class="footer-adress">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
       <ul class="header-navigation-goods">
         <li class="header-navigation-good">
